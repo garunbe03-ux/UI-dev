@@ -23,13 +23,13 @@ export default function HomePage() {
 
   return (
     <div className="relative min-h-screen overflow-hidden">
+      {/* Background Video */}
       <video className="absolute top-0 left-0 w-full h-full object-cover" autoPlay loop muted playsInline>
-        <source src="/placeholder-video.mp4" type="video/mp4" />
-        {/* Fallback for when video doesn't load */}
+        <source
+          src="https://www.responsiblejewellery.com/wp-content/uploads/GettyImages-2106124711.mp4"
+          type="video/mp4"
+        />
       </video>
-
-      {/* Fallback background gradient when video is not available */}
-      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800"></div>
 
       <header className="absolute top-0 left-0 right-0 z-30 bg-black/90 backdrop-blur-sm">
         <div className="flex justify-between items-center px-4 md:px-8 h-16">
